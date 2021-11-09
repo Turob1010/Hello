@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Department-Service" />
+        <module name="Service-registry" />
+        <module name="Order-Service" />
+        <module name="Cloud-Gateway" />
+        <module name="User-Service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Cloud-Gateway" target="11" />
+      <module name="Department-Service" target="11" />
+      <module name="Order-Service" target="11" />
+      <module name="Service-registry" target="11" />
+      <module name="User-Service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Cloud-Gateway" options="-parameters" />
+      <module name="Department-Service" options="-parameters" />
+      <module name="Order-Service" options="-parameters" />
+      <module name="Service-registry" options="-parameters" />
+      <module name="User-Service" options="-parameters" />
+    </option>
+  </component>
+</project>
